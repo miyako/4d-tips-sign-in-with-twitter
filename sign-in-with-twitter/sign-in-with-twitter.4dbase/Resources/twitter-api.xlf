@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xliff 
+	version="1.0" 
+	xmlns:d4="http://www.4d.com/d4-ns">
+	
+	<file 
+		datatype="x-4DK#" 
+		original="undefined" 
+		source-language="en-US" 
+		target-language="en-US"
+		product-version="v13">
+		
+		<header>
+		<note>https://dev.twitter.com/apps/4777831/show</note>
+		</header>
+				
+		<body>
+
+			<group restype="x-4DK#">
+				
+				<trans-unit id="Twitter consumer key" d4:value="7MvwqYTNRklCgiOvN5kxpg:S">
+					<source>Twitter consumer key</source>
+				</trans-unit>
+				
+				<trans-unit id="Twitter consumer secret" d4:value="Gdiupz5TIEWEryG29DiLUeV6MaxH1Okb8Nf0yXZ4:S">
+					<source>Twitter consumer secret</source>
+				</trans-unit>				
+				
+				<trans-unit id="Twitter request token URL" d4:value="https://api.twitter.com/oauth/request_token:S">
+					<source>Twitter request token URL</source>
+				</trans-unit>	
+							
+				<trans-unit id="Twitter authorize URL" d4:value="https://api.twitter.com/oauth/authorize:S">
+					<source>Twitter authorize URL</source>
+				</trans-unit>					
+				
+				<trans-unit id="Twitter access token URL" d4:value="https://api.twitter.com/oauth/access_token:S">
+					<source>Twitter access token URL</source>
+				</trans-unit>					
+
+				<trans-unit id="Twitter callback URL" d4:value="http://127.0.0.1/twitter/user:S">
+					<source>Twitter callback URL</source>
+				</trans-unit>	
+
+				<trans-unit id="Twitter realm URL" d4:value="https://api.twitter.com/:S">
+					<source>Twitter realm URL</source>
+				</trans-unit>	
+																																				
+			 </group>
+			 
+		</body>	
+	
+	</file>
+	
+</xliff>

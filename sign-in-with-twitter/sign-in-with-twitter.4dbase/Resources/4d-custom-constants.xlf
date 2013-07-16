@@ -1,0 +1,112 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xliff 
+	version="1.0" 
+	xmlns:d4="http://www.4d.com/d4-ns">
+	
+	<file 
+		datatype="x-4DK#" 
+		original="undefined" 
+		source-language="en-US" 
+		target-language="en-US"
+		product-version="v13">
+		
+		<header>
+			<note>
+			
+			This file adds custom constants to the standard 4D language.
+			Version 13 or later is required.
+			Place the file in one of the following locations:
+			
+			- {Database Folder}/Resources
+			- {Component Database Folder}/Resources
+			- {Application Folder}/Resources
+			- {Plugin}.bundle/Contents/Resources
+			
+			Note that you need not place it inside an lproj folder (though you can do that too).
+			
+			</note>
+		</header>
+				
+		<body>
+
+			<group restype="x-4DK#">
+			
+				<trans-unit id="Reject data entry" d4:value="-1:L">
+				   <source>Reject data entry</source>
+				   <note>To be used with On Before Data Entry Event and listbox cells.</note>
+				</trans-unit>				
+				<trans-unit id="Reject drag over" d4:value="-1:L">
+				   <source>Reject drag over</source>
+				   <note>To be used with On Drag Over.</note>
+				</trans-unit>				
+				<trans-unit id="Accept drag over" d4:value="0:L">
+				   <source>Accept drag over</source>
+				   <note>To be used with On Drag Over.</note>
+				</trans-unit>				
+				<trans-unit id="Not found in array" d4:value="-1:L">
+				   <source>Not found in array</source>
+				   <note>To be used with Find in array.</note>
+				</trans-unit>					
+				<trans-unit id="Not found in list" d4:value="0:L">
+				   <source>Not found in list</source>
+				   <note>To be used with Find in list.</note>
+				</trans-unit>									
+				<trans-unit id="Not found in position" d4:value="0:L">
+				   <source>Not found in position</source>
+				   <note>To be used with Position.</note>
+				</trans-unit>																																																																																																																																																																																																																																									
+				<trans-unit id="Header arrow down" d4:value="2:L">
+				   <source>Header arrow down</source>
+				   <note>To be used with On Header Click Event and listbox cells.</note>
+				</trans-unit>					
+				<trans-unit id="Header arrow up" d4:value="1:L">
+				   <source>Header arrow up</source>
+				   <note>To be used with On Header Click Event and listbox cells.</note>
+				</trans-unit>																	
+				<trans-unit id="Header arrow none" d4:value="0:L">
+				   <source>Header arrow none</source>
+				   <note>To be used with On Header Click Event and listbox cells.</note>
+				</trans-unit>		
+				<trans-unit id="Custom header click" d4:value="-1:L">
+				   <source>Custom header click</source>
+				   <note>To be used with On Header Click Event and listbox cells.</note>
+				</trans-unit>	
+				<trans-unit id="Standard header click" d4:value="0:L">
+				   <source>Standard header click</source>
+				   <note>To be used with On Header Click Event and listbox cells.</note>
+				</trans-unit>	
+				<trans-unit id="Last added menu item" d4:value="-1:L">
+				   <source>Last added menu item</source>
+				   <note>To be used with Menu commands.</note>
+				</trans-unit>	
+				<trans-unit id="Last added list item" d4:value="0:L">
+				   <source>Last added list item</source>
+				   <note>To be used with List commands.</note>
+				</trans-unit>
+				<trans-unit id="Menu Item check mark" d4:value="18:L">
+					<source>Menu item check mark</source>
+					<note>To be used in Char() with SET MENU ITEM MARK.</note>
+				</trans-unit>
+				<trans-unit id="Automatic color" d4:value="-255:L">
+					<source>Automatic color</source>
+					<note>To be used with object RGB colors.</note>
+				</trans-unit>
+				
+				<!-- added -->
+				
+				<trans-unit id="Find in main list" d4:value="0:L">
+					<source>Find in main list</source>
+					<note>To be used with Find in list.</note>
+				</trans-unit>
+				<trans-unit id="Find in sub list" d4:value="1:L">
+					<source>Find in sub list</source>
+					<note>To be used with Find in list.</note>
+				</trans-unit>
+																												
+			 </group>
+			 
+		</body>	
+	
+	</file>
+	
+</xliff>
